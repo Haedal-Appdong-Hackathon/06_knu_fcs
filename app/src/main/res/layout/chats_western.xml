@@ -48,18 +48,17 @@
 
     <TextView
         android:id="@+id/text_header6"
-        android:layout_width="0dp"
+        android:layout_width="600dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:background="#673AB7"
         android:gravity="center"
         android:padding="3dp"
-        android:text="🍝 WESTERN DISHES 🍝 WE"
+        android:text="🍝 WESTERN DISHES 🍝 WES"
         android:textColor="#FFFFFF"
         android:textSize="30dp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
