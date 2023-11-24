@@ -1,10 +1,10 @@
 package com.example.practice;
 
-import android.os.Bundle;
-
 import androidx.appcompat.app.AppCompatActivity;
 
-public class MainActivity6 extends AppCompatActivity {
+import android.os.Bundle;
+
+public class tologin extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -12,5 +12,3 @@ public class MainActivity6 extends AppCompatActivity {
         setContentView(R.layout.login);
     }
 }
-//ghgh
-//ttgdgh
