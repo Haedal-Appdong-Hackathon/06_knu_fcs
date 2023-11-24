@@ -26,5 +26,18 @@ public class ReviewActivity extends AppCompatActivity {
                 }
             }
         });
+
+        Button gotomain = findViewById(R.id.button6);
+        gotomain.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                try {
+                    Intent i = new Intent(ReviewActivity.this, MainActivity.class);
+                    startActivity(i);
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+            }
+        });
     }
 }
