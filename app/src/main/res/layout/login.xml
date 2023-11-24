@@ -18,7 +18,7 @@
         app:layout_constraintBottom_toTopOf="@+id/editTextTextPassword"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView" />
+        app:layout_constraintTop_toTopOf="@+id/loginButton" />
 
     <EditText
         android:id="@+id/editTextTextPassword"
@@ -54,12 +54,12 @@
         android:text="Go !"
         android:textColor="#FBFAFA"
         android:textSize="14sp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintBottom_toBottomOf="@+id/loginButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/loginButton"
         android:layout_width="440dp"
         android:layout_height="756dp"
         android:rotation="90"
