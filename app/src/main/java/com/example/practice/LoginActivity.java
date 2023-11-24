@@ -21,8 +21,9 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 showToast("로그인 성공!"); // login confirm 필요
-                Intent i = new Intent(LoginActivity.this, MainActivity.class);
-                startActivity(i);
+                finish();
+                /*Intent i = new Intent(LoginActivity.this, MainActivity.class);
+                startActivity(i);*/
             }
         });
     }
