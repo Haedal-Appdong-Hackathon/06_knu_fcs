@@ -12,3 +12,4 @@ public class MainActivity3 extends AppCompatActivity {
         setContentView(R.layout.page4);
     }
 }
+//stest
