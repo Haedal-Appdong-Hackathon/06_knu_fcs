@@ -9,6 +9,6 @@ public class MainActivity2 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.page3_2);
+        setContentView(R.layout.chat_main);
     }
 }
