@@ -21,6 +21,24 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name="com.example.practice.ChatsHamburgerActivity"
+            android:label="hamburger">
+        </activity>
+        <activity
+            android:name="com.example.practice.ChatsWesternActivity"
+            android:label="western">
+        </activity>
+        <activity
+            android:name="com.example.practice.ChatroomActivity"
+            android:label="chatroom">
+        </activity>
+        <activity
+            android:name="com.example.practice.LoginActivity"
+            android:label="login">
+        </activity>
+
     </application>
 
 </manifest>
