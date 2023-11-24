@@ -3,11 +3,11 @@ package com.example.practice;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class tochat extends AppCompatActivity {
+public class ChatsActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.chat);
+        setContentView(R.layout.chats);
     }
 }
