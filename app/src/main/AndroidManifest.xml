@@ -23,20 +23,16 @@
         </activity>
 
         <activity
-            android:name="com.example.practice.ChatsHamburgerActivity"
-            android:label="hamburger">
+            android:name="com.example.practice.ChatsHamburgerActivity">
         </activity>
         <activity
-            android:name="com.example.practice.ChatsWesternActivity"
-            android:label="western">
+            android:name="com.example.practice.ChatsWesternActivity">
         </activity>
         <activity
-            android:name="com.example.practice.ChatroomActivity"
-            android:label="chatroom">
+            android:name="com.example.practice.ChatroomActivity">
         </activity>
         <activity
-            android:name="com.example.practice.LoginActivity"
-            android:label="login">
+            android:name="com.example.practice.LoginActivity">
         </activity>
 
     </application>
