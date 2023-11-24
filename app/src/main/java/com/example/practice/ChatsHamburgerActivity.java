@@ -15,7 +15,7 @@ public class ChatsHamburgerActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         Log.d("test", "hamburger on");
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.chats_hamburger);
+        setContentView(R.layout.chats_realhamburger);
 
         TextView chat = findViewById(R.id.textView9);
         chat.setOnClickListener(new View.OnClickListener() {
