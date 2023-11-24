@@ -3,7 +3,7 @@ package com.example.practice;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class ChatsActivity extends AppCompatActivity {
+public class ChatsHamburgerActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
