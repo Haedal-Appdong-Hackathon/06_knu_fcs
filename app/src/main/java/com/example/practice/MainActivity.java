@@ -13,8 +13,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
 
-        Intent intent = new Intent(this, LoginActivity.class);
-        startActivity(intent);
+        if(Account.getID().equals("")) {
+            Intent intent = new Intent(this, LoginActivity.class);
+            startActivity(intent);
+        }
 
         Button hamburger = findViewById(R.id.hamburger);
         hamburger.setOnClickListener(new View.OnClickListener() {

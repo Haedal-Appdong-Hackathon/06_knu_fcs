@@ -1,10 +1,10 @@
 package com.example.practice;
 
 public class Account {
-    private String ID;
+    private static String ID = "";
     private String nickname;
 
-    public String getID() {
+    public static String getID() {
         return ID;
     }
     public String getNickname() {
