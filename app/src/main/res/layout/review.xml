@@ -9,6 +9,20 @@
     tools:layout_editor_absoluteY="-8dp">
 
 
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="143dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="4dp"
+        android:background="#673AB7"
+        android:text="Go to main"
+        android:textColor="#FDF3F3"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.985"
+        app:layout_constraintStart_toStartOf="parent" />
+
     <TextView
         android:id="@+id/textView8"
         android:layout_width="401dp"
@@ -108,21 +122,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView6" />
-
-    <TextView
-        android:id="@+id/textView9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="10dp"
-        android:gravity="center"
-        android:text="time ! review time ! review time ! revie"
-        android:textAlignment="center"
-        android:textColor="#673AB7"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textView15"

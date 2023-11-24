@@ -129,4 +129,18 @@
         app:layout_constraintVertical_bias="0.291"
         app:srcCompat="@drawable/yeah" />
 
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="187dp"
+        android:layout_height="32dp"
+        android:layout_marginBottom="16dp"
+        android:background="#673AB7"
+        android:text="Go to write review"
+        android:textColor="#FDF3F3"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.071"
+        app:layout_constraintStart_toStartOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
