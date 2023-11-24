@@ -26,9 +26,21 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        /*
+        Button western = findViewById(R.id.button7);
+        western.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                try {
+                    Intent i = new Intent(MainActivity.this, ChatsWesternActivity.class);
+                    startActivity(i);
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+            }
+        });
+
         Intent intent = new Intent(this, LoginActivity.class);
         startActivity(intent);
-        */
+
     }
 }
