@@ -1,10 +1,10 @@
 package com.example.practice;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 
-public class MainActivity3 extends AppCompatActivity {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class MainActivity5 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
