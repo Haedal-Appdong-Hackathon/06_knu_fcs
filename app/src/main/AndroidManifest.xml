@@ -34,6 +34,12 @@
         <activity
             android:name="com.example.practice.LoginActivity">
         </activity>
+        <activity
+            android:name="com.example.practice.ReviewActivity">
+        </activity>
+        <activity
+            android:name="com.example.practice.ScoreActivity">
+        </activity>
 
     </application>
 
