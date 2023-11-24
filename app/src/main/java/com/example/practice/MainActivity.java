@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         hamburger.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(getApplicationContext(), ChatsHamburgerActivity.class);
+                Intent i = new Intent(MainActivity.this, ChatsHamburgerActivity.class);
                 startActivity(i);
             }
         });
