@@ -13,7 +13,7 @@
         android:layout_width="342dp"
         android:layout_height="186dp"
         android:layout_marginTop="70dp"
-        android:background="@color/design_default_color_background"
+        android:background="@color/white"
         android:maxLines="2"
         android:text="안녕! 오늘은 맑음이야 :) 오늘은 뭘 먹고싶어?"
         android:textColor="#000000"
@@ -60,7 +60,8 @@
         android:layout_width="110dp"
         android:layout_height="110dp"
         android:layout_marginTop="36dp"
-        android:layout_marginEnd="40dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginRight="56dp"
         android:drawableBottom="@drawable/sixx"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/first" />
