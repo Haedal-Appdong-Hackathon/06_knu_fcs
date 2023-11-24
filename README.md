@@ -1,4 +1,4 @@
-# 06_knu_fcs - KNU_LIFE
+ 06_knu_fcs - KNU_LIFE
 ======================
 ## 식사 친구 모집 앱
 
